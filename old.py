@@ -1,4 +1,4 @@
-W = '\033[97;1m'
+WhyW = '\033[97;1m'
 R = '\033[91;1m'
 G = '\033[92;1m'
 Y = '\033[93;1m'
@@ -1295,7 +1295,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.Jahid-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get(https://raw.githubusercontent.com/Jakariya404/Paid/main/Approved.txt").text
+	r1=request ("https://raw.githubusercontent.com/Jakariya404/J-1/main/Approved.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
@@ -1308,7 +1308,7 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;32m MINHAZ PAID TOOL You Need Get Approved First\033[1;37m\n")
+		print(" \033[1;32m Jahid PAID TOOL You Need Get Approved First\033[1;37m\n")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
