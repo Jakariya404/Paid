@@ -1295,7 +1295,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.Jahid-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=request ("git clone https://raw.githubusercontent.com/Jakariya404/J-1/main/Approved.txt").text
+	r1=request ("https://raw.githubusercontent.com/Jakariya404/J-1/main/Approved.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
