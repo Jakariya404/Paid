@@ -1,4 +1,4 @@
-WhyW = '\033[97;1m'
+W = '\033[97;1m'
 R = '\033[91;1m'
 G = '\033[92;1m'
 Y = '\033[93;1m'
@@ -84,9 +84,9 @@ def clear():
 def back():
 	login()
 
-ahsan="Mr-"
-imt="-2.0=="
-ak="MINHAZ-"
+pk="Ja-"
+Ao="-1.0=="
+ja="Jahid-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
 	key1 = open('/data/data/com.termux/files/usr/bin/.mrkausar-cov', 'r').read()
@@ -1295,7 +1295,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.Jahid-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=request ("https://raw.githubusercontent.com/Jakariya404/J-1/main/Approved.txt").text
+	r1=request ("git clone https://raw.githubusercontent.com/Jakariya404/J-1/main/Approved.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
