@@ -1292,10 +1292,10 @@ class Main:
 
 
 def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.mrkausar-cov', 'r').read()
+	key1=open('/data/data/com.termux/files/usr/bin/.Jahid-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://raw.githubusercontent.com/Jakariya404/Paid/main/Approved.txt").text
+	r1=requests.get(https://raw.githubusercontent.com/Jakariya404/Paid/main/Approved.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
@@ -1314,7 +1314,7 @@ def Subscraption():
 		print("")
 		print(" Copy And Send Key To Admin")
 		print ("")
-		print (" Your Key : "+ak+ahsan+key1)
+		print (" Your Key : "+dk+Jahid+key1)
 		print ("")
 		name = input(" Your Name : ")
 		print ("")
