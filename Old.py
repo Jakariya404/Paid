@@ -84,9 +84,9 @@ def clear():
 def back():
 	login()
 
-ahsan="Mr-"
+hassan="Mr-"
 imt="-2.0=="
-ak="MINHAZ-"
+ak="Jahid-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
 	key1 = open('/data/data/com.termux/files/usr/bin/.mrkausar-cov', 'r').read()
