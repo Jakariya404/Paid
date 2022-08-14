@@ -388,13 +388,11 @@ def follow(ses,coki):
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
 logo = ("""
-\x1b[1;92m O))       O))O))O)))     O))O))     O))      O)       O))))))) O))
-\x1b[1;92m O) O))   O)))O))O) O))   O))O))     O))     O) ))            O))
-\x1b[1;92m O)) O)) O O))O))O)) O))  O))O))     O))    O)  O))          O))
-\x1b[1;92m O))  O))  O))O))O))  O)) O))O)))))) O))   O))   O))       O))    
-\x1b[1;92m O))   O)  O))O))O))   O) O))O))     O))  O)))))) O))     O))
-\x1b[1;92m O))       O))O))O))    O) ))O))     O)) O))       O))  O))
-\x1b[1;92m O))       O))O))O))      O))O))     O))O))         O))O)))))))))))
+    __  _   _ __ __ __ 
+   / /.' \ /// // //  \
+n_/ // o // ` // // o |
+\_,'/_n_//_n_//_//__,' 
+                         
 
    \x1b[1;92m╔═════════════════════════════
    \x1b[1;92m║➣TOOL NAME : { Jahid}   
